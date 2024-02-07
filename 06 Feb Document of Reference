@@ -1,0 +1,133 @@
+06th Feb, 2014
+Document of Reference
+Created login in the GitHub platform.
+
+What is GitHub?
+Github is a web-based platform that provides a hosting service for multiple people to collaborate on projects and track changes to code.
+
+What is a variable?
+A variable is a named container for a particular set of bits or type of data. The datatype of a variable defines the type of value it can hold such as integers, floating point numbers, characters or custom datatypes. 
+
+What are the components of a variable?
+Name, datatype, value.
+
+What is a byte?
+8 bits form a byte.
+
+What is a bit?
+A bit a the smallest unit of data that a computer can store. It is a binary digit either 0 or 1.
+
+Which datatype stores only one bit?
+Boolean
+
+How each datatype different from each other?
+
+—----------------------------
+
+Write pseudocode for finding fibonacci series 
+int a=0
+print a;
+int n=enter the limit for fibonacci series;
+for (int i=0; i<=n; i++)
+{
+int febo=i+a;
+print febo;	
+}
+
+Write pseudocode for determining the given number is odd or even
+int num;
+if(num/2=0)
+result=’even’;
+else
+result=’odd’;
+
+Java example: Comparing characters using ASCII values
+char char1=’a’;
+char char 2=’b’;
+if(char1<char2)
+{
+System.out.println(char1+ “ comes before “ +char2);
+}
+else
+{
+System.out.println(char2+ “ comes before “ +char1;
+}
+
+Finding factorial of a number
+if(n<0)
+{
+return unidentified;
+}
+If (n=0) or (n=1)
+{
+return 1;
+}
+If (n!=1)
+{
+	for(i=1; i<=n;i++)
+	{
+		factorialofn= factorialofn*i;
+	}
+}
+return n;
+
+
+—------------------------
+Decimal to Binary
+Eg.
+
+Binary to Decimal
+
+Eg.
+(1101001)₂ = (1 × 2⁶) + (1 × 2⁵) + (0 × 2⁴) + (1 × 2³) + (0 × 2²) + (0 × 2¹) + (1 × 2⁰)
+= 64 + 32 + 0 + 8 + 0 + 0 + 1
+= (105)₁₀
+Constructs and Loops
+If a condition satisfies, execute a statement else execute another statement.
+
+Initialize - lower range
+Condition - upper range
+
+Array
+
+Collection of same datatype variables at continuous memory locations.
+
+How array index works?
+
+
+Eg:
+intArray = new int[20];
+
+/ Java program to illustrate creating
+//  an array of objects
+   
+class Student
+{
+    
+    public String name;
+    Student(String name)
+    {
+        this.name = name;
+    }
+      @Override
+    public String toString(){
+        return name;
+    }
+}
+   
+// Elements of the array are objects of a class Student.
+public class GFG
+{
+    public static void main (String[] args)
+    {
+           // declares an Array and initializing  the elements of the array
+        Student[] myStudents = new Student[]{new Student("Dharma"),new Student("sanvi"),new Student("Rupa"),new Student("Ajay")};
+   
+        // accessing the elements of the specified array
+        for(Student m:myStudents){	
+            System.out.println(m);
+        }
+    }
+}
+
+
